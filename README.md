@@ -16,7 +16,7 @@ mything = DemoClass('hello', "world",
                     arg6="nobody codes like this anyways")
 ```
 Into this:
-
+```python
 mything = DemoClass(
     "hello",
     "world",
@@ -27,7 +27,7 @@ mything = DemoClass(
     arg5="formatting",
     arg6="nobody codes like this anyways",
 )
-
+```
 However, this poses an issue when working on open source projects as the code reformatting is applied on the entire file, including code that I don’t want to touch. This causes me to reformat the code, copy the changed lines I wanted to format, revert formatting, and replace my lines by the copied lines. This felt clumsy and so I went to investigate.
 
 ## Installation and configuration in PyCharm
