@@ -5,6 +5,8 @@ In the Python world there are several code formatters – e.g. [Black](https://
 
 For example, Black will automatically format this:
 
+
+```python
 mything = DemoClass('hello', "world",
                     arg1="this",
                         arg2="is",
@@ -12,7 +14,7 @@ mything = DemoClass('hello', "world",
                                 arg4="ugly",
                                     arg5="formatting",
                     arg6="nobody codes like this anyways")
-
+```
 Into this:
 
 mything = DemoClass(
