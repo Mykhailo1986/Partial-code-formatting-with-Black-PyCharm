@@ -43,3 +43,16 @@ Black only formats entire files so this poses an issue when working on open sour
 ![PyCharm external tool macros](https://godatadriven.com/wp-content/images/bash-black-formatting-selection/pycharm-macros.png)
 
 To apply partial Black formatting, we need at least the selected line numbers which are given by `SelectionStartLine` and `SelectionEndLine`.
+
+
+## PyCharm shortcut
+
+Finally, create a PyCharm shortcut for formatting a selection:
+
+![PyCharm keymap for formatting selection](https://godatadriven.com/wp-content/images/bash-black-formatting-selection/pycharm-selection-keymap.png)
+
+With this `⌥⌘;` shortcut we can now call the script to format only the selection:
+
+![PyCharm code selection formatted](https://godatadriven.com/wp-content/images/bash-black-formatting-selection/pycharm-code-selection-formatted.png)
+
+
